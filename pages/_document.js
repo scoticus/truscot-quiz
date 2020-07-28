@@ -18,13 +18,17 @@ export default class MyDocument extends Document {
           <meta
             name="description"
             content="Think your clued up about Caledonia? Find out with the TruScot quiz!"
-          ></meta>
+          />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:url" content="https://truscot.com" />
           <meta name="twitter:title" content="TruScot Quiz" />
           <meta
             name="twitter:description"
             content="Think your clued up about Caledonia? Find out with the TruScot quiz!"
+          />
+          <meta
+            name="twitter:image"
+            content="https://truscot-quiz.vercel.app/icon.png"
           />
         </Head>
         <body>
