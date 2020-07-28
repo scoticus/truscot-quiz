@@ -28,7 +28,7 @@ export default class MyDocument extends Document {
           />
           <meta
             name="twitter:image"
-            content="https://truscot-quiz.vercel.app/icon.png"
+            content="https://truscot-quiz.vercel.app/icon-sq.png"
           />
         </Head>
         <body>
