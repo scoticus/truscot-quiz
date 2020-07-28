@@ -21,7 +21,7 @@ export const Container = styled.section`
 
   p {
     margin: 0;
-    max-width: 75%;
+    max-width: 280px;
     text-align: center;
     line-height: 1.5;
     font-size: 14px;

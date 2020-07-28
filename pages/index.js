@@ -25,8 +25,7 @@ export default function Home() {
           <p className="caledonia">Think you're clued up about Caledonia?</p>
           <p>
             Find out if you can call yourself a{' '}
-            <strong style={{ color: 'var(--saltire-blue)' }}>TruScot</strong>
-            <br />
+            <strong style={{ color: 'var(--saltire-blue)' }}>TruScot</strong>{' '}
             with a {converter.toWords(questions.length)} question quiz!
           </p>
           <Link href="quiz">
