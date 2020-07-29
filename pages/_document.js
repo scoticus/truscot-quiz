@@ -30,6 +30,11 @@ export default class MyDocument extends Document {
             name="twitter:image"
             content="https://truscot.com/icon_sq.png"
           />
+          <script
+            src="https://tahr.scoticus.com/script.js"
+            site="SOBFHHTN"
+            defer
+          ></script>
         </Head>
         <body>
           <Main />
