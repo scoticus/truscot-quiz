@@ -4,9 +4,9 @@ import Footer from './Footer';
 
 import { Container, IncorrectSummary } from '../styles/summaryStyles';
 
-export default function QuizSummary({ score, quizLength, incorrectQs }) {
+export default function QuizSummary({ score, incorrectQs }) {
   function whichMessage() {
-    const result = score / quizLength;
+    const result = score / 30;
     if (result === 1) {
       return 'Pure dead brilliant!';
     } else if (result < 1 && result > 0.5) {
@@ -22,19 +22,19 @@ export default function QuizSummary({ score, quizLength, incorrectQs }) {
         <Container>
           <p className="thanks">Thanks for playing! 😀</p>
           <h1>
-            You scored <span>{score}</span> out of <span>{quizLength}</span>
+            You scored <span>{score}</span> out of <span>30</span>
           </h1>
           <p className="message">{whichMessage()}</p>
           <div className="links">
             <a
-              href={`https://twitter.com/intent/tweet?text=I+just+got+${score}+out+of+30+on+the+TruScot+quiz.+Think+you+can+beat+me%3F+https%3A%2F%2Ftruscot.com`}
+              href={`https://twitter.com/intent/tweet?text=I+just+scored+${score}+out+of+30+on+the+TruScot+quiz.+Think+you+can+beat+me%3F+https%3A%2F%2Ftruscot.com`}
               className="twitter"
             >
               Share on Twitter
             </a>
 
             <Link href="/">
-              <a>Return to homepage</a>
+              <a>Have Another Go?</a>
             </Link>
           </div>
         </Container>

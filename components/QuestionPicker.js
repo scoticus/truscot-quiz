@@ -34,9 +34,7 @@ export default function QuestionPicker({
           <a className="exit">Exit</a>
         </Link>
         <div className="info">
-          <h2>
-            Question {questionNum} of {questions.length}
-          </h2>
+          <h2>Question {questionNum} of 30</h2>
           <Timer setTimeUp={setTimeUp} />
         </div>
       </Heading>
@@ -63,9 +61,7 @@ export default function QuestionPicker({
                 correctAnswer={questionData.correct}
               />
               <button type="button" onClick={() => nextQ()}>
-                {questionNum === questions.length
-                  ? 'Finish quiz'
-                  : 'Next question'}
+                {questionNum === 30 ? 'Finish quiz' : 'Next question'}
               </button>
             </>
           )}

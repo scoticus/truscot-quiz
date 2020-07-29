@@ -49,7 +49,7 @@ export default function Quiz() {
   }
 
   function nextQ() {
-    if (questionNum < questions.length) {
+    if (questionNum < questionList.length) {
       setQuestionNum(questionNum + 1);
       setAnswer('');
       setDisabled(false);
