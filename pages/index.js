@@ -3,8 +3,6 @@ import Link from 'next/link';
 import Footer from '../components/Footer';
 import { Container } from '../styles/indexStyles';
 
-import questions from '../data/questions';
-
 export default function Home() {
   return (
     <>
