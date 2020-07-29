@@ -33,6 +33,7 @@ export default class MyDocument extends Document {
           <script
             src="https://tahr.scoticus.com/script.js"
             site="SOBFHHTN"
+            spa="auto"
             defer
           ></script>
         </Head>

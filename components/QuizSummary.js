@@ -29,6 +29,8 @@ export default function QuizSummary({ score, incorrectQs }) {
             <a
               href={`https://twitter.com/intent/tweet?text=I+just+scored+${score}+out+of+30+on+the+TruScot+quiz.+Think+you+can+beat+me%3F+https%3A%2F%2Ftruscot.com`}
               className="twitter"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Share on Twitter
             </a>
