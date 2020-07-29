@@ -3,7 +3,7 @@ module.exports = [
     id: 1,
     title: 'Auld Reekie is the nickname for which Scottish city?',
     correct: 'Edinburgh',
-    options: ['Glasgow', 'Edinburgh', 'Stirling', 'Invernes'],
+    options: ['Glasgow', 'Edinburgh', 'Stirling', 'Inverness'],
   },
   {
     id: 2,
@@ -120,7 +120,7 @@ module.exports = [
     id: 12,
     title: 'What is Alexander Graham Bell credited with inventing?',
     correct: 'Telephone',
-    options: ['Telephone', 'Penecillin', 'Television', 'Steam engine'],
+    options: ['Telephone', 'Penicillin', 'Television', 'Steam engine'],
   },
   {
     id: 13,
