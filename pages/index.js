@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import converter from 'number-to-words';
 
 import Footer from '../components/Footer';
 import { Container } from '../styles/indexStyles';
@@ -24,9 +23,8 @@ export default function Home() {
           </h1>
           <p className="caledonia">Think you're clued up about Caledonia?</p>
           <p>
-            Find out if you can call yourself a{' '}
-            <strong style={{ color: 'var(--saltire-blue)' }}>TruScot</strong>{' '}
-            with a {converter.toWords(questions.length)} question quiz!
+            Find out if you can call yourself a real Scot with a 30 question
+            quiz!
           </p>
           <Link href="quiz">
             <a>Begin Quiz</a>

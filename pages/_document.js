@@ -17,14 +17,14 @@ export default class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Think your clued up about Caledonia? Find out with the TruScot quiz!"
+            content="Think your clued up about Caledonia? Find out with the 30 question TruScot quiz!"
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:url" content="https://truscot.com" />
           <meta name="twitter:title" content="TruScot Quiz" />
           <meta
             name="twitter:description"
-            content="Think your clued up about Caledonia? Find out with the TruScot quiz!"
+            content="Think your clued up about Caledonia? Find out with the 30 question TruScot quiz!"
           />
           <meta
             name="twitter:image"
