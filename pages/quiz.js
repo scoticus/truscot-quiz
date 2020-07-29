@@ -12,7 +12,8 @@ function useQuestionOrder(setLoading, setQuestionList) {
     let jumble = questions.sort(function () {
       return 0.5 - Math.random();
     });
-    setQuestionList(jumble);
+    // only set first 30 questions to state
+    setQuestionList(jumble.slice(0, 30));
     setLoading(false);
   }, []);
   return null;
