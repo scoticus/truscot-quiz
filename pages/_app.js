@@ -9,8 +9,8 @@ export default function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     // Initialize Fathom when the app loads
-    Fathom.load(process.env.FATHOM_CODE, {
-      includedDomains: [process.env.FATHOM_DOMAIN],
+    Fathom.load(process.env.NEXT_PUBLIC_FATHOM_CODE, {
+      includedDomains: [process.env.NEXT_PUBLIC_FATHOM_DOMAIN],
     });
 
     function onRouteChangeComplete() {
