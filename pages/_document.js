@@ -31,8 +31,8 @@ export default class MyDocument extends Document {
             content="https://truscot.com/icon_sq.png"
           />
           <script
-            src="https://tahr.scoticus.com/script.js"
-            site="SOBFHHTN"
+            src={`https://${process.env.NEXT_PUBLIC_FATHOM_DOMAIN}/script.js`}
+            site={process.env.NEXT_PUBLIC_FATHOM_CODE}
             spa="auto"
             defer
           ></script>
