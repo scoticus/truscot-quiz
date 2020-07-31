@@ -92,8 +92,8 @@ export default function Footer() {
       <div />
       <p>This site was created by Scoticus.</p>
       <div>
-        <a href="https://twitter.com/scoticus_">{twitter}</a>
-        <a href="https://github.com/scoticus">{github}</a>
+        <!--<a href="https://twitter.com/scoticus_">{twitter}</a>
+        <a href="https://github.com/scoticus">{github}</a>-->
       </div>
     </StyledFooter>
   );
