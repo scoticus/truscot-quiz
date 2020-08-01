@@ -5,7 +5,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>My new cool app</title>
+        <title>TruScot Quiz</title>
       </Head>
       <div className="viewport">
         <header />
