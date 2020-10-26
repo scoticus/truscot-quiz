@@ -29,12 +29,6 @@ export default class MyDocument extends Document {
             name="twitter:image"
             content="https://truscot.com/icon_sq.png"
           />
-          <script
-            src={`https://${process.env.NEXT_PUBLIC_FATHOM_DOMAIN}/script.js`}
-            site={process.env.NEXT_PUBLIC_FATHOM_CODE}
-            spa="auto"
-            defer
-          ></script>
         </Head>
         <body>
           <Main />
